@@ -1,22 +1,20 @@
-# 🚀 CodeSafari 101
+# CodeSafari 101
 
 **Your One-Stop Coding Adventure** - A self-guided programming platform inspired by MIT's rigorous computer science curriculum, featuring AI-powered assistance with RAG technology.
 
-## ✨ Features
+## Features
 
-- **🎯 Skills-Based Learning**: Choose from Python, JavaScript, C Programming, and Web Development tracks
-- **📚 MIT-Inspired Labs**: Comprehensive reading materials, practice exercises, and hands-on projects
-- **🤖 AI Tutor**: GPT-4 powered chatbot that only answers lab-related questions (RAG-filtered)
-- **🎨 Beautiful UI**: Modern React interface with smooth animations and responsive design
+- **Skills-Based Learning**: Choose from Python, JavaScript, C Programming, and Web Development tracks
+- **AI Tutor**: GPT-4 powered chatbot that only answers lab-related questions (RAG-filtered)
 
-## 🏗️ Architecture
+## Architecture
 
 - **Frontend**: React + TypeScript + Custom CSS (Port 3001)
 - **Backend**: FastAPI + Python (Port 8000)
 - **AI**: OpenAI GPT-4 with keyword-based RAG filtering
 - **Database**: In-memory lab content storage
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Setup Backend (FastAPI)
 ```bash
@@ -38,7 +36,7 @@ source venv/bin/activate  # Virtual environment is already created
 3. **Read Content**: Review the reading material and exercises
 4. **Ask AI Questions**: Use the chatbot to get help (only lab-related questions work!)
 
-## 🧪 Sample Lab Questions to Try
+##  Sample Lab Questions to Try
 
 **For Python BFS Lab:**
 - "How does BFS work?"
@@ -51,10 +49,10 @@ source venv/bin/activate  # Virtual environment is already created
 - "Explain event handling in JavaScript"
 
 **Non-Lab Questions (Will be filtered out):**
-- "Who is Rihanna?" ❌
-- "What's the weather like?" ❌
+- "Who is Rihanna?" 
+- "What's the weather like?" 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 codesafari-101/
@@ -71,10 +69,3 @@ codesafari-101/
 └── README.md               # This file
 ```
 
-## 🎯 Resume Bullet Point
-
-*"Architecting a self-guided coding platform with FastAPI and GPT-4, using RAG to deliver contextual learning support"*
-
----
-
-**Ready to start your coding adventure?** Add your OpenAI API key and explore the labs! 🎓
